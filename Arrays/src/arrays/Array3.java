@@ -9,11 +9,10 @@ public class Array3 {
 		for (int counter = 0; counter < array.length  ;counter ++)
 		{
 			array[counter] = counter * 2 + 2;
+		System.out.printf("%5d%8d%n",counter,array[counter]);
 		}
-		for (int counter = 0; counter < array.length;counter ++)
-		{
-			System.out.printf("%5d%8d%n",counter,array[counter]);
-		}
+		//for (int counter = 0; counter < array.length;counter ++)
+			
 				
 	}
 
